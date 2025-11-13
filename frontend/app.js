@@ -4,7 +4,7 @@ const outputEl = document.getElementById('output');
 const loader = document.getElementById('loader');
 const toneSel = document.getElementById('tone');
 
-// Updated to match backend which we run on port 8001
+// Backend API URL - matches the port used by run.sh
 const API_URL = 'http://127.0.0.1:8001/rewrite';
 
 function showLoader(show=true){
