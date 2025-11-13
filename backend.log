@@ -1,0 +1,16 @@
+nohup: ignoring input
+INFO:     Started server process [740301]
+INFO:     Waiting for application startup.
+INFO:backend.model:Loading model google/flan-t5-small on device cpu
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60392 - "OPTIONS /rewrite HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60392 - "POST /rewrite HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60400 - "POST /rewrite HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42904 - "POST /rewrite HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34104 - "POST /rewrite HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37014 - "POST /rewrite HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [740301]

@@ -1,0 +1,9 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+transformers==4.46.0
+# Use a torch wheel compatible with Python 3.13 available on PyPI in this environment
+torch==2.9.1
+sentencepiece
+typing-extensions
+python-multipart
+rich

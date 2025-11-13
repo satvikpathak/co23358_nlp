@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tone Transformer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Tone Transformer</h1>
+      <p>Rewrite text into a polite, formal, or friendly tone.</p>
+
+      <label for="tone">Select tone</label>
+      <select id="tone">
+        <option value="polite">Polite</option>
+        <option value="formal">Formal</option>
+        <option value="friendly">Friendly</option>
+      </select>
+
+      <textarea id="input" placeholder="Paste your text here..."></textarea>
+
+      <button id="rewrite">Rewrite Tone</button>
+
+      <div id="loader" class="hidden">Processing...</div>
+
+      <section id="result">
+        <h2>Rewritten Output</h2>
+        <div id="output" class="output-box" readonly></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
